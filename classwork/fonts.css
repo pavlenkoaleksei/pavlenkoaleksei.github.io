@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(./fonts/playfairdisplay/PlayfairDisplay-VariableFont_wght.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima nova';
+  src: url(./fonts/proximanovaregular/Proxima\ Nova\ Regular.otf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto';
+  src: url(./fonts/roboto/Roboto-Bold.ttf);
+  font-weight: 400;
+  font-style: normal;
+}

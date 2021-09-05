@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+background-color: #464F54;
+}
+h2 {
+  font-family: 'Playfair Display';
+}
+.fonts-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.fonts-header {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  position: initial;
+}
+.fonts-header-wraper {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+  width: 800px;
+  z-index: 1;
+  
+}
+.fonts-title-wrapper {
+  background-color: black;
+  color: white;
+  width: 70%;
+  padding: 30px;
+}
+.fonts-proxima {
+  color: gray;
+  font-family: 'proxima nova';
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.fonts-playfair {
+  font-family: reg;
+  width: 180px;
+  border-right: 2px solid gray;
+  margin-right: 300px;
+}
+.fonts-nav svg  {
+  width: 30px;
+  height: 30px;
+  fill: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.fonts-title-line {
+  color: silver;
+}
+.fonts-nav {
+  background-color: #FBC02D;
+  width: 60%;
+  padding: 10px;
+  text-align: left;
+}
+.fonts-wraper-main {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 70px;
+  margin: 0  auto;
+  margin-top: 80px;
+  }
+.fonts-main {
+  border-left: 1px solid gray;
+  padding-left: 20px;
+}
+.fonts-futura {
+  text-transform: uppercase;
+  font-family:'roboto';
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.fonts-georgia-italic{
+  font-style: italic;
+  font-size: 20px;
+  color: #8f8f8f;
+  margin-bottom: 60px;
+}
+.fonts-georgia {
+ font-size: 20px;
+}
+.frst {
+ padding-bottom: 40px;
+}

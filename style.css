@@ -1,0 +1,20 @@
+body {
+  background-color: orange;
+}
+.titl {
+  margin-left: 50px;
+
+}
+
+.logo {
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 20px; 
+}
+main {
+  margin-left: 50px;
+}
+span {
+  margin-bottom: 100px;
+  margin-left: 50px;
+}

@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.e-icon-phone {
+  width: 15px;
+  height: 15px;
+  fill: #F48671;
+}
+.icon-arrow {
+  width: 35px;
+  height: 30px;
+  fill: black;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.c-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1200px;
+}
+.c-header__wrapper {
+ display: flex;
+ padding-top: 30px;
+ align-items: center;
+ padding-right: 50px;
+ padding-bottom: 30px;
+ justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #484645;
+}
+a:hover {
+  color: #F48671;
+  text-decoration: underline;
+}
+.c-header__lang {
+  color: #C4C4C4;
+}
+.lang__uk {
+  padding-right: 5px;
+  border-right: 2px solid black;
+}
+.lang__uk:hover {
+  color: black;
+  cursor: pointer;
+  transition: .35s cubic-bezier(.4,0,.2,1);
+}
+.lang__rus:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.e-phone {
+  color: #F48671;
+}
+.maine {
+ position: relative;
+}
+.c-maine__text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 140px;
+  left: 0;
+}
+.e-text {
+  margin-bottom: 30px;
+}
+.color_orange {
+  color: #F48671;
+}
+.e-text__also {
+  color: #484645;
+  margin-bottom: 30px;
+}
+.buttom {
+  width: 300px;
+  background-color: #F48671;
+  display: inline-block;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.icon-arrow {
+  fill: white;
+}
+.buttom:hover {
+  background-color: black;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+h2 {
+  padding: 0;
+  display: inline-block;
+  margin-right: 10px;
+}
+.c-maine__picture {
+  position: absolute;
+  width: 400px;
+  height: 550px;
+  right: 0px;
+}
+.e-border__1 {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  width: 90%;
+  height: 75%;
+  border: 1px solid #F57A7C;
+}
+.picture {
+  width: 100%;
+}
+.e-border__2 {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  width: 90%;
+  height: 75%;
+  border: 1px solid #F57A7C;
+  transform: rotate(-11.16deg);
+}

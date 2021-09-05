@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.waper {
+  background-color: #E2E7EC;
+  width: 100%;
+  max-width: 1200px;
+  
+}
+.maine {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 20px;
+}
+.first-block {    
+  width: 740px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.first-block-car {
+  position: relative;
+}
+.car-bl {
+  filter: brightness(60%);
+  width: 740px; 
+  height: 540px;
+}
+.first-block-car-text {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+.car-text1st {
+  color: silver;
+  margin-bottom: 10px;
+}
+.sec-block {
+  width: 350px;
+  height:  auto;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.sec-block-girl {
+  width: 350px; 
+  height: 0 auto;
+  background-color: white;
+}
+.girl {
+  width: 350px; 
+  height: 250px;
+}
+.sec-block-girl-text {
+  text-transform: uppercase;
+  margin: 10px;
+}
+.girl-text1st {
+  margin-bottom: 10px;
+  color: silver;
+}
+.girl-text2 {
+  padding-bottom: 120px;
+}
+/* 3 block */
+.thr-block,.fr-block,.five-block {
+  width: 360px;
+  height: 0 auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.thr-block-people {
+ background-color: white;
+}
+
+.thr-block-people-text {
+  text-transform: uppercase;
+  margin: 10px;
+}
+.people-text1 {
+  margin-bottom: 10px;
+  color: silver;
+  text-transform: uppercase;
+}
+.people-text2 {
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+.people-text4-1 {
+  margin-top: 38px;
+  text-transform: uppercase;
+  padding-bottom: 60px ;
+}

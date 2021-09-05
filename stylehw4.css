@@ -1,0 +1,29 @@
+body {
+  margin: 20px;
+ 
+}
+h1{
+  background-color: #A52A2A;
+  color: white;
+  text-align: center;
+}
+.sunset {
+  min-width: 100%;
+}
+p {
+  font-size: 18px;
+}
+.colortext {
+  color: blue;
+}
+section {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
