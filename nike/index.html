@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <!-- ico -->
+    <link rel="icon" href="./ico/ap.ico" />
+    <!-- Normolize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css"
+    />
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./fonts.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Maine -->
+      <div class="c-maine__wrapper">
+          <div class="c-maine__left">
+              <!-- Nike logo -->
+              <div class="e-nike__logo">
+                <img src="./img/logo.png" alt="logo" />
+              </div>
+              <!-- Shooze -->
+              <div class="e-shooze__img">
+                <img src="./img/Nike-SB-Stefan-Janoski-Max.png" alt="nike" />
+              </div>
+              <!-- Radio btn -->
+              <div class="c-radio-item">
+                <label class="radio">
+                  <input type="radio" value="color" name="blue">
+                  <span class="e-color__blue"></span>
+                </label>
+                <label class="radio">
+                  <input type="radio" value="color" name="blue">
+                  <span class="e-color__white"></span>
+                </label>
+                <label class="radio">
+                  <input type="radio" value="color" name="blue">
+                  <span class="e-color__red"></span>
+                </label>
+                <label class="radio">
+                  <input type="radio" value="color" name="blue">
+                  <span class="e-color__last"></span>
+                </label>
+              </div>
+              <!-- /Radio btn -->
+          </div>
+          
+          <!----------->
+          <div class="c-maine__right">
+            <div class="c-maine__text">
+              <div class="e-title">Nike SB Stefan <br> Janoski Max</div>
+              <div class="e-subtitle">Unisex Skateboarding Shoe</div>
+              <!-- Star  -->
+              <div class="c-stars__wrapper">
+                <img class="e-star" src="./img/star.png" alt="star">
+                <img class="e-star" src="./img/star.png" alt="star">
+                <img class="e-star" src="./img/star.png" alt="star">
+                <img class="e-star" src="./img/stargrey.png" alt="star">
+                <img class="e-star" src="./img/stargrey.png" alt="star">
+              </div>
+              <!-- /star -->
+              <!-- options form -->
+              <form class="c-options__form">
+                <!--  size -->
+                <select class="e-options__select">
+                  <option selected disabled hidden>Size</option>
+                  <option value="40">40</option>
+                  <option value="41">41</option>
+                  <option value="42">42</option>
+                  <option value="43">43</option>
+                  <option value="44">44</option>
+                </select>
+                <!-- /size -->
+                <!-- Qty -->
+                <select class="e-options__select">
+                  <option selected disabled hidden>Qty</option>
+                  <option value="8">8</option>
+                  <option value="8,5">8,5</option>
+                  <option value="9">9</option>
+                  <option value="9,5">9,5</option>
+                  <option value="10">10</option>
+                </select>
+                <!-- /Qty -->
+                <!-- Button -->
+                <button class="options__button">Add to cart</button>
+                <!-- /Button -->
+              </form>    
+            </div>
+          </div>
+      </div>
+  </body>
+</html>

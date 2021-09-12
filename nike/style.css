@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: "museo";
+  color: #e1e1e1;
+  background-image: url(./img/fon.jpg);
+  background-size: cover;
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* Maine */
+.c-maine__wrapper {
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 65px 0px rgba(0, 0, 0, 0.82);
+  background-color: #111A28;
+  overflow: auto;
+}
+.c-maine__left {
+  float: left;
+  width: 60%;
+}
+/* logo */
+.e-nike__logo {
+  padding: 25px;
+  text-align: left;
+}
+
+/* shooze */
+.e-shooze__img {
+  padding: 35px;
+}
+.c-radio-item {
+  margin: 0 auto;
+  width: fit-content;
+}
+.radio {
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.radio input[type="radio"] {
+  display: none;
+}
+.radio span {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+.e-color__blue {
+  background-color: #1F273F;
+}
+.e-color__white {
+  background-color: #FFFFFF;
+}
+.e-color__red {
+  background-color: #F34B41;
+}
+.e-color__last {
+  background-color: #24E7EE;
+}
+.radio span:after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  border: 2px solid #8D939A;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  border-radius: 50%;
+  transition: 300ms ease-in-out 0s;
+}
+.radio input[type="radio"]:checked ~ span:after {
+  transform: translate(-50%,-50%) scale(1);
+}
+/* --------- */
+
+.c-maine__right {
+  float: right;
+  width: 40%;
+}
+
+.c-maine__text {
+  text-align: left;
+}
+
+.e-title {
+  font-size: 24px;
+  padding-top: 30%;
+}
+
+.e-subtitle {
+  font-size: 14px;
+  opacity: 0.54;
+  padding-top: 3%;
+}
+
+/* stars */
+.c-stars__wrapper {
+  padding-top: 15%;
+}
+
+.e-star {
+  width: 12px;
+  height: 12px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/* /star */
+
+/* Select option */
+.c-options__form {
+  padding-top: 15%;
+}
+
+.e-options__select {
+  text-align: center;
+  border: 1px solid #616873;
+  color: #616873;
+  background-color: #111a28;
+  width: 80px;
+  cursor: pointer;
+}
+
+.options__button {
+  width: 184px;
+  height: 40px;
+  color: silver;
+  font-size: 14px;
+  border: 1px solid #2A3545;
+  background-color: #202835;
+  margin-top: 15%;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+
+.options__button:hover {
+  background-color: #2A3545;
+}
