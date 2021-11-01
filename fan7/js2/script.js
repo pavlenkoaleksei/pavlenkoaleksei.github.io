@@ -1,6 +1,6 @@
 //Создать страницу, которая выводит нумерованный список песен:
 
-var playList = [
+let playList = [
   {
     author: "LED ZEPPELIN",
     song: "STAIRWAY TO HEAVEN",
@@ -34,9 +34,9 @@ var playList = [
     song: "ENTER SANDMAN",
   },
 ];
-const ul = document.createElement("ul");
+const ol = document.createElement("ol");
 const mainDiv = document.getElementById("content");
-mainDiv.append(ul);
+mainDiv.append(ol);
 for (let i in playList) {
   const li = document.createElement("li");
   const pBtn = document.createElement("p");
@@ -44,7 +44,7 @@ for (let i in playList) {
   pBtn.append(" : ");
   pBtn.append(playList[i].song);
   li.append(pBtn);
-  ul.append(li);
+  ol.append(li);
 }
 //2. Создать HTML-страницу с кнопкой "Открыть"
 // и модальным окном. На модальном окне должен быть
