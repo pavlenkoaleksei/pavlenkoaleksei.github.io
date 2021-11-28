@@ -1,0 +1,38 @@
+.c-loading {
+  background: $c-black;
+  width: 100vw;
+  height: 100vh;
+}
+.wave {
+  background-color:$c-black;
+  animation: 1s spin infinite linear;
+  transform: translate(-50%, -50%);
+  border: 3px solid $c-white;
+  border-top-color: $c-black;
+  border-radius: 50%;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  left: 50%;
+  top: 50%;
+}
+
+.icon-loading {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 140px;
+  padding: 10px;
+  width: 140px;
+  left: 50%;
+  top: 50%;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

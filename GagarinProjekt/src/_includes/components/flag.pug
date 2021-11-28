@@ -1,0 +1,27 @@
+mixin flag()
+  .c-flag(id="flag") 
+    +radial-gradient()
+  .c-flag__line
+    h2.e-flag__line-text - ПРОДВИЖЕНИЕ ЗА ГОРИЗОНТ - 
+  .c-flag__wrapper  
+    .c-flag__texrarea 
+      h2.e-flag__title СИГНАЛЬТЕ  
+      form.c-flag__form(action="#" id="js-flag-form" method="POST")
+        .c-flag-controls
+          input.e-form__imput(type="text" name="name" id="js-name" placeholder="ФИО" required="required")
+        .c-flag-controls 
+          input.e-form__imput(type="text" name="contact" id="js-contact" placeholder="Почта/ телефон" required="required")
+        .c-flag-controls
+          textarea.e-form__imput(name="message" id="js-text" placeholder="Кратко опишите свой проект" cols="300" rows="5") 
+        .c-flag__form__condition 
+          button(id="js-flag-up" type="submit").e-form-btm
+            span.e-condition__text ПРИЕМ!
+      .c-condition__info 
+        .e-condition__subinfo
+          svg.e-subinfo__yes
+            use(xlink:href="#icon-yes") 
+          span Согласен (-на) на обработку персональных данных
+        .e-condition__subinfo
+          svg.e-subinfo__svg
+            use(xlink:href="#icon-clock") 
+          span Ответим в течение часа

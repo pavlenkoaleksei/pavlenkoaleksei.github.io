@@ -1,0 +1,64 @@
+.e-radial-gradient {
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  z-index: -1;
+  position: relative;
+  max-width: 1300px;
+  &__left {
+    background: radial-gradient(50% 50% at 50% 50%, #14FFF1 0%, rgba(192, 255, 251, 0) 100%);
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    z-index: 2;
+    top: 0;
+    left: 0;
+  }
+  &__right {
+    background: radial-gradient(50% 50% at 50% 50%, #BD00FF 0%, rgba(227, 148, 255, 0) 100%);
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    z-index: 1;
+    right: 0;
+    top: 0; 
+  }
+  
+}
+.orbit1 {
+  animation: Orbita 15s linear infinite;
+  position: absolute;
+  right: 33%;
+}
+
+@keyframes Orbita {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+.orbit2 {
+  position: absolute;
+  bottom: 33%;
+  right: 33%;
+  left: 39%;
+  top: 29%;
+
+  animation: Orbita 15s linear infinite;
+}
+
+@-webkit-keyframes Orbita {
+  from {
+    -webkit-transform: rotate(180deg) translateX(150px) rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}

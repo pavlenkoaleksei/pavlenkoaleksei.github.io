@@ -1,0 +1,12 @@
+mixin header()
+  header.c-header
+    .c-header__wrapper
+
+      //- Logo
+      .c-header__logo                         
+        +logo()
+
+      //- Navigation list
+      .c-header__navigation
+        a.e-navigation_contact(href="tel:+79262490742") +7 (926) 249-07-42
+        +burger-menu()

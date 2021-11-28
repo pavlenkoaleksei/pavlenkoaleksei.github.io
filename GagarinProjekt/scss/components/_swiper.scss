@@ -1,0 +1,21 @@
+.swiper {
+  width: 100%;
+  height: calc(100vh - 70px);
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid white;
+  opacity: 1;
+}
+.swiper-pagination-vertical.swiper-pagination-bullets,
+.swiper-vertical>.swiper-pagination-bullets {
+  top: 75%;
+  left: 10px;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  height: 30px;
+  border-radius: 20px;
+
+}

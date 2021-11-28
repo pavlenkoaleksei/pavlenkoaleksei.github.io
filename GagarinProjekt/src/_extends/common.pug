@@ -1,0 +1,27 @@
+include ../_includes/components/index
+include ../_includes/elements/index
+
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+		//- Normalize 
+		link(rel='stylesheet' href='../../scss/plugins/_normalize.scss')
+		//- Favicon	
+		link(rel='icon' href='../../assets/icon/gagarin.ico')
+		//- Swiper
+		link(rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css")
+		//- Main style
+		link(rel='stylesheet' href='index.css')
+
+		block style
+		block title
+			title Gagarin 
+	body
+		include ../../assets/icon/common/symbol-defs.svg
+		.c-loading#loading
+			block loading
+		.l-common#page
+			block content
+			block scripts

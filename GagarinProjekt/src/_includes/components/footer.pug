@@ -1,0 +1,24 @@
+mixin footer()
+  .c-footer(id="footer")
+    .c-footer__wrapper 
+      .c-footer_contacts  
+        .c-footer_contacts-left 
+          .c-footer__map(id="map")
+        .c-footer_contacts-right  
+          .c-footer-right_info 
+            p HELLO@GAGARIN.DEGITAL
+            a.e-footer-right_info-contact(href="tel:+79262490742") +7 (926) 249-07-42
+            p 115035, г. Москва, Космодамианская набережная, д. 36
+            p Работаем 5/2: c 10:00 – 20:00
+          .c-footer-right_link 
+            a.e-social-link(href="https://www.instagram.com/?hl=ru" target="_blank")
+              svg.e-social-link__svg
+                use(xlink:href="#icon-inst")
+            a.e-social-link(href="https://web.telegram.org/" target="_blank")
+              svg.e-social-link__svg
+                use(xlink:href="#icon-telega")
+            a.e-social-link(href="https://www.facebook.com/" target="_blank")
+              svg.e-social-link__svg
+                use(xlink:href="#icon-facebook")
+
+

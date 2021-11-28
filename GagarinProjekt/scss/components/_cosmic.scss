@@ -1,0 +1,60 @@
+.c-cosmic {
+  width: 100%;
+  height: 100%;
+  background-color: $c-black;
+  color:$c-white;
+  padding: 20px;
+  &__wrapper {
+    width: 100%;
+  }
+  .c-cosmic__texrarea {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .e-cosmic__title {
+      font-size: 70px;
+      font-weight: 700;
+      max-width: 600px;
+    }
+  .e-cosmic__subtitle {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    max-width: 550px;
+    margin-top: 10px;
+  }
+  .c-cosmic__question {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+ 
+    &__wrapper {
+      width: 200px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  .e-question__svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  } 
+  .c-cosmic__footer {
+    width: 100%;
+    max-width: 550px;
+    margin-top: 70px;
+    left: 50%;
+    position: fixed;
+    display: flex;
+    p {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    }
+    
+  }
+}
